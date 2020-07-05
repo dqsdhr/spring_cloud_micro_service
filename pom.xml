@@ -6,7 +6,7 @@
 	<groupId>com.mark.microservice</groupId>
 	<artifactId>homework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>homework</name>
+	<name>micro service framework</name>
 	<description>A micro service framework</description>
 
 	<modules>
