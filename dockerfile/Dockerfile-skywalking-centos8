@@ -4,7 +4,7 @@ ENV LANG=C.UTF-8
 
 RUN mkdir -p /usr/skywalking/agent
 
-ADD jdk1.8.0_251 /opt/jdk1.8.0_251
+ADD jdk-8u251-linux-x64.tar.gz /opt/
 ADD apache-skywalking-apm-bin/agent /opt/skywalking/agent
 
 # set env
