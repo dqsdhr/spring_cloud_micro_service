@@ -19,7 +19,7 @@ RUN apk upgrade --update
 RUN apk add --update libstdc++ curl ca-certificates bash
 # https://github.com/sgerrand/alpine-pkg-glibc/releases/tag/2.31-r0
 # https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.31-r0/glibc-2.31-r0.apk
-RUN for pkg in glibc-${GLIBC_VERSION} glibc-bin-${GLIBC_VERSION} glibc-i18n-${GLIBC_VERSION}; do curl -sSL https://github.com/andyshinn/alpine-pkg-glibc/releases/download/${GLIBC_VERSION}/${pkg}.apk -o /tmp/${pkg}.apk; done
+RUN for pkg in glibc-${GLIBC_VERSION} glibc-bin-${GLIBC_VERSION} glibc-i18n-${GLIBC_VERSION}; do curl -sSL https://github.com/sgerrand/alpine-pkg-glibc/releases/download/${GLIBC_VERSION}/${pkg}.apk -o /tmp/${pkg}.apk; done
 RUN apk add --allow-untrusted /tmp/*.apk
 
 RUN rm -v /tmp/*.apk
