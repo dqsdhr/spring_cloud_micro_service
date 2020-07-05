@@ -9,7 +9,7 @@
     <artifactId>inf-bom</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>inf-bom</name>
-    <description>第三方jar包统一管理</description>
+    <description>thirty part jar management</description>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
