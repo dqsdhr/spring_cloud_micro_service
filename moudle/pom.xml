@@ -8,11 +8,10 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.unischool.dera</groupId>
-    <artifactId>homework-teacher</artifactId>
+    <artifactId>moudle</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>homework-teacher</name>
-    <description>Fltrp AI App homework teacher</description>
+    <name>moudle</name>
+    <description>A business moudle</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -24,7 +23,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.unischool.dera</groupId>
+            <groupId>com.mark.microservice</groupId>
             <artifactId>inf-bom</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>

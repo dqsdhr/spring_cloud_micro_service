@@ -3,14 +3,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<packaging>pom</packaging>
-	<groupId>com.unischool.dera</groupId>
+	<groupId>com.mark.microservice</groupId>
 	<artifactId>homework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>homework</name>
-	<description>Fltrp AI App homework system</description>
+	<description>A micro service framework</description>
 
 	<modules>
-		<module>homework-teacher</module>
+		<module>moudle</module>
 		<module>parent</module>
 		<module>inf-bom</module>
 	</modules>

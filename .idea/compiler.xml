@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="homework" target="1.5" />
       <module name="inf-bom" target="1.5" />
+      <module name="microservice" target="1.5" />
       <module name="moudle" target="1.8" />
       <module name="parent" target="1.8" />
     </bytecodeTargetLevel>
